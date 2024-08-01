@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Glass color",
+        "titleColorName": "#275CAC",
+        "subColors": [
+            {
+                "colors": [
+                    "#275CAC",
+                    "#39385F",
+                    "#B04E4F"
+                ]
+            },
+            {
+                "colors": [
+                    "#688E58",
+                    "#275CAC",
+                    "#B29F26"
+                ]
+            },
+            {
+                "colors": [
+                    "#275CAC",
+                    "#4B3462",
+                    "#AE737E"
+                ]
+            },
+            {
+                "colors": [
+                    "#5AA6CC",
+                    "#275CAC",
+                    "#17878F"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky blue",
+        "titleColorName": "#1BB1E7",
+        "subColors": [
+            {
+                "colors": [
+                    "#1BB1E7",
+                    "#FEC57F",
+                    "#79C472"
+                ]
+            },
+            {
+                "colors": [
+                    "#1BB1E7",
+                    "#E8E5C4",
+                    "#E77054"
+                ]
+            },
+            {
+                "colors": [
+                    "#1BB1E7",
+                    "#EBE3A6",
+                    "#4577AF"
+                ]
+            },
+            {
+                "colors": [
+                    "#D6E068",
+                    "#1BB1E7",
+                    "#F5A58E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Strong blue",
+        "titleColorName": "#015970",
+        "subColors": [
+            {
+                "colors": [
+                    "#005970",
+                    "#83899E",
+                    "#222B61"
+                ]
+            },
+            {
+                "colors": [
+                    "#015970",
+                    "#8C8859",
+                    "#4C0C2B"
+                ]
+            },
+            {
+                "colors": [
+                    "#887462",
+                    "#00586E",
+                    "#712F23"
+                ]
+            },
+            {
+                "colors": [
+                    "#833E5C",
+                    "#162F5B",
+                    "#00586E"
+                ]
+            }
+        ]
+    }
+]

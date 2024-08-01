@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Scarlet",
+        "titleColorName": "#D13C2A",
+        "subColors": [
+            {
+                "colors": [
+                    "#F5E3C9",
+                    "#D13C2A",
+                    "#7F2A2D"
+                ]
+            },
+            {
+                "colors": [
+                    "#858EC6",
+                    "#ECB979",
+                    "#D13C2A"
+                ]
+            },
+            {
+                "colors": [
+                    "#056056",
+                    "#D13C2A",
+                    "#DAE7B1"
+                ]
+            },
+            {
+                "colors": [
+                    "#D13C2A",
+                    "#E6E0CD",
+                    "#195AA4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Normal red",
+        "titleColorName": "#D9271C",
+        "subColors": [
+            {
+                "colors": [
+                    "#FDB815",
+                    "#D9271C",
+                    "#384F97"
+                ]
+            },
+            {
+                "colors": [
+                    "#45A35D",
+                    "#D9271C",
+                    "#02AAAC"
+                ]
+            },
+            {
+                "colors": [
+                    "#D9271C",
+                    "#F58321",
+                    "#DA517F"
+                ]
+            },
+            {
+                "colors": [
+                    "#F3AF9D",
+                    "#D9271C",
+                    "#B3BB44"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pink",
+        "titleColorName": "#D13C2A",
+        "subColors": [
+            {
+                "colors": [
+                    "#F69687",
+                    "#FFEFAC",
+                    "#BFDC8E"
+                ]
+            },
+            {
+                "colors": [
+                    "#80D2E4",
+                    "#F69687",
+                    "#91B5C9"
+                ]
+            },
+            {
+                "colors": [
+                    "#80D2E4",
+                    "#FFEAD3",
+                    "#F69687"
+                ]
+            },
+            {
+                "colors": [
+                    "#E790A2",
+                    "#FBC79B",
+                    "#F69687"
+                ]
+            }
+        ]
+    }
+]

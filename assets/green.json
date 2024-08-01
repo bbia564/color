@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Spring green",
+        "titleColorName": "#67B27B",
+        "subColors": [
+            {
+                "colors": [
+                    "#67B27B",
+                    "#076749",
+                    "#B2BA43"
+                ]
+            },
+            {
+                "colors": [
+                    "#866228",
+                    "#67B27B",
+                    "#BFC581"
+                ]
+            },
+            {
+                "colors": [
+                    "#80B4C7",
+                    "#67B27B",
+                    "#DEAA9E"
+                ]
+            },
+            {
+                "colors": [
+                    "#67B27B",
+                    "#C4DED5",
+                    "#6480B6"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Apple green",
+        "titleColorName": "#9BB944",
+        "subColors": [
+            {
+                "colors": [
+                    "#47A7DD",
+                    "#275CAC",
+                    "#9BB944"
+                ]
+            },
+            {
+                "colors": [
+                    "#7E7919",
+                    "#9BB944",
+                    "#01A589"
+                ]
+            },
+            {
+                "colors": [
+                    "#FCB933",
+                    "#9BB944",
+                    "#D5DE40"
+                ]
+            },
+            {
+                "colors": [
+                    "#9BB944",
+                    "#D5DA9F",
+                    "#DC6235"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Strong green",
+        "titleColorName": "#3D7955",
+        "subColors": [
+            {
+                "colors": [
+                    "#DB9C86",
+                    "#3D7955",
+                    "#4E9BA3"
+                ]
+            },
+            {
+                "colors": [
+                    "#386690",
+                    "#BAC689",
+                    "#4C0C2B"
+                ]
+            },
+            {
+                "colors": [
+                    "#3D7955",
+                    "#BDB063",
+                    "#8E3D62"
+                ]
+            },
+            {
+                "colors": [
+                    "#B25957",
+                    "#E2C589",
+                    "#3D7955"
+                ]
+            }
+        ]
+    }
+]
