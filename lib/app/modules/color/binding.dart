@@ -2,11 +2,11 @@ import 'package:get/get.dart';
 
 import 'logic.dart';
 
-class CarBinding extends Bindings {
+class ColBind extends Bindings {
   @override
   void dependencies() {
     Get.put(
-      PageLogic(),
+      PageControllerM(),
       permanent: true,
     );
   }

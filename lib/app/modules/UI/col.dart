@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 
 import '../color/logic.dart';
 
-class CARPage extends GetView<PageLogic>{
-  const CARPage({super.key});
+class ColorView extends GetView<PageControllerM>{
+  const ColorView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class CARPage extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.sdfeo.value)),
+              url: WebUri.uri(Uri.parse(controller.qzigxjor.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

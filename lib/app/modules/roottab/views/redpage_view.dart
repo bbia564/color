@@ -4,7 +4,6 @@ import 'package:color_extractor/app/modules/roottab/controllers/roottab_controll
 import 'package:color_extractor/app/modules/utils/color_util.dart';
 import 'package:color_extractor/app/modules/utils/componets.dart';
 import 'package:color_extractor/app/modules/utils/constant.dart';
-import 'package:color_extractor/app/routes/app_pages.dart';
 import 'package:color_extractor/constant/assets/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -40,7 +39,7 @@ class RedpageView extends GetView {
               5.verticalSpace,
               InkWell(
                   onTap: () {
-                    Get.toNamed(Routes.SETTTINGS);
+                    Get.toNamed('/setttings');
                   },
                   child: cecustom_cell_view(
                       title: "Settings",
@@ -54,7 +53,7 @@ class RedpageView extends GetView {
               10.verticalSpace,
               InkWell(
                   onTap: () {
-                    Get.toNamed(Routes.DETAILS,arguments: {"from":DBTableName.red});
+                    Get.toNamed('/details',arguments: {"from":DBTableName.red});
                   },
                   child: cecustom_cell_view(
                       title: "Copy records",

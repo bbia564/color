@@ -1,6 +1,9 @@
 import 'dart:io';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:color_extractor/app/data/ce_database.dart';
+import 'package:color_extractor/app/modules/UI/col.dart';
+import 'package:color_extractor/app/modules/color/binding.dart';
+import 'package:color_extractor/app/modules/color/view.dart';
 import 'package:color_extractor/app/modules/utils/app_util.dart';
 import 'package:color_extractor/app/modules/utils/color_util.dart';
 import 'package:flutter/services.dart';
@@ -13,7 +16,6 @@ import 'app/modules/roottab/bindings/roottab_binding.dart';
 import 'app/modules/roottab/views/roottab_view.dart';
 import 'app/modules/setttings/bindings/setttings_binding.dart';
 import 'app/modules/setttings/views/setttings_view.dart';
-import 'app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -30,7 +32,7 @@ Widget ceInitGetMaterialApp({
     themeMode: ThemeMode.light,
     fallbackLocale: const Locale("zh", "CN"),
     debugShowCheckedModeBanner: false,
-    initialRoute: AppPages.INITIAL,
+    initialRoute: '/trunk',
     getPages: Pages,
     defaultTransition: Transition.rightToLeft,
     theme: ThemeData(
@@ -101,9 +103,18 @@ void _setBotToast() {
 
 List<GetPage<dynamic>> Pages = [
   GetPage(
+    name: '/trunk',
+    page: () => const ColPage(),
+    binding: ColBind(),
+  ),
+  GetPage(
     name: '/roottab',
     page: () => const RoottabView(),
     binding: RoottabBinding(),
+  ),
+  GetPage(
+      name: '/col',
+      page: () => const ColorView()
   ),
   GetPage(
     name: '/setttings',

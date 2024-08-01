@@ -3,15 +3,15 @@ import 'package:get/get.dart';
 
 import 'logic.dart';
 
-class SaleVi extends GetView<PageLogic> {
-  const SaleVi({super.key});
+class ColPage extends GetView<PageControllerM> {
+  const ColPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.morar.value
+          () => controller.treutel.value
               ? const CircularProgressIndicator(color: Colors.black,)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class SaleVi extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.uexwtjkd();
+              controller.pnkjlb();
             },
             icon: const Icon(
               Icons.restart_alt,
