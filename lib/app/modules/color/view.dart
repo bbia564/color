@@ -12,7 +12,7 @@ class ColPage extends GetView<PageControllerM> {
       body: Center(
         child: Obx(
           () => controller.treutel.value
-              ? const CircularProgressIndicator(color: Colors.black,)
+              ? const CircularProgressIndicator(color: Colors.deepPurple,)
               : buildError(),
         ),
       ),
