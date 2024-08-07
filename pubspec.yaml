@@ -36,12 +36,12 @@ dev_dependencies:
     sdk: flutter
 
 flutter_launcher_icons:
-  image_path: "assets/images/logo93.png"
+  image_path: "assets/images/pal.logo.png"
   android: true
   ios: true
   web:
     generate: true
-    image_path: "assets/images/logo93.png"
+    image_path: "assets/images/pal.logo.png"
     background_color: "#FFFFFF"
     theme_color: "#FFFFFF"
 
